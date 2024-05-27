@@ -1,0 +1,47 @@
+body {
+    background-color: #348e91;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0a0c0d;
+    margin:0;
+    padding: 0;
+
+}
+
+.container {
+    background-color:#f2f2f2;
+    margin:0 auto;
+    width: 50%;
+    padding: 2%;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    
+
+}
+
+.button {
+    border-radius: 10px;
+    border: none;
+    width:  15%;
+    padding: 2%;
+    margin: 2%;    
+    background-color:#348e91;
+    transition: background-color 0.5s;
+
+    cursor:pointer;
+}
+.button:hover
+{
+    background-color:#3a9da1;
+}
+
+.inputClima {
+    background-color: #f2f2f2;
+    background-color: #d6d6d6;
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    padding-left: 15px;
+    
+}
